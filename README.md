@@ -6,7 +6,7 @@ tibiaguessr.com is a geo location game inspired by geoguessr.com but using Tibia
 Built with FastAPI, ReactJS, and MongoDB or with Cloud Technology
 
 ### Backend
-[] CRUD images
+`CRUD images`
 [] CRUD challenges
 [] calculate accuracy
 
