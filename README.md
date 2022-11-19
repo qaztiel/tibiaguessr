@@ -11,17 +11,17 @@ Built with FastAPI, ReactJS, and MongoDB or with Cloud Technology
 *calculate accuracy
 
 
-###Frontend - ReactJS
+### Frontend - ReactJS
 *landing page with button to start challenge
 *results pop up window with a next/new button to initiate another challenge
 
-###Database
-*challenge
-**image
-**player_selection
-**results
-*image
-**location
-**image
-**difficulty
+### Database
+* challenge
+** image
+** player_selection
+** results
+* image
+** location
+** image
+** difficulty
 
