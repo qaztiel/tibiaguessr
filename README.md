@@ -17,8 +17,8 @@ Built with FastAPI, ReactJS, and MongoDB or with Cloud Technology
 
 ### Database
 * challenge
-** image
-** player_selection
+* * image
+* * player_selection
 ** results
 * image
 ** location
