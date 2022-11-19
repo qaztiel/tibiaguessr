@@ -17,11 +17,11 @@ Built with FastAPI, ReactJS, and MongoDB or with Cloud Technology
 
 ### Database
 * challenge
-* * image
-* * player_selection
-** results
-* image
-** location
+ * image
+ * player_selection
+ * results
 ** image
-** difficulty
+ * location
+ * image
+ * difficulty
 
