@@ -4,10 +4,14 @@ tibiaguessr.com is a geo location game inspired by geoguessr.com but using Tibia
 ## Developers:
 
 ### Getting Started
+
+## Front End
 1. clone repo
 2. cd to the `tibiaguessr-frontend` dir
 3. `npm start`
 
+## Back end
+COMING SOON
 
 Built with FastAPI, ReactJS, and MongoDB or with Cloud Technology
 
