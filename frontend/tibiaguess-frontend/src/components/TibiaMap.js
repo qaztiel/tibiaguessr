@@ -1,4 +1,5 @@
-import { MapContainer, TileLayer, Popup, Marker, ImageOverlay, LatLngBounds } from 'react-leaflet'
+import { MapContainer, Marker, ImageOverlay } from 'react-leaflet'
+
 
 
 export function TibiaMap() {
@@ -13,7 +14,7 @@ export function TibiaMap() {
     // TODO: bounds need work to keep from panning too far from map
     const bounds = [
         [-350, -250], 
-        [350, 250]
+        [250, 350]
     ];
     return (
         <div id="map">
@@ -25,13 +26,18 @@ export function TibiaMap() {
                 minZoom={2}
                 trackResize={true}
                 maxBounds={bounds}
-                maxBoundsViscosity={1.0}
+                maxBoundsViscosity={.5}
                 >
                     <ImageOverlay
                         url={"https://tibiamaps.github.io/tibia-map-data/floor-07-map.png"}
                         bounds={bound}
                         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> | <a href= "https://www.tibiamaps.io">TibiaMaps.io</a>'
+                        Marker={[61.505, -0.09]}
                     />
+                    <Marker 
+                        position={[0, 0]}
+                        />
+                    
             </MapContainer>
         </div>
     );
