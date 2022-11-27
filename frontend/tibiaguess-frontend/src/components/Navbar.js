@@ -2,16 +2,16 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 
 
-function BrandExample() {
+function BrandBar() {
   return (
     <>
-      <Navbar bg="light">
+      <Navbar>
         <Container>
-          <Navbar.Brand href="#home">Brand link</Navbar.Brand>
+          <Navbar.Brand href="#home">Tibiaguessr</Navbar.Brand>
         </Container>
       </Navbar>
     </>
   );
 }
 
-export default BrandExample;
+export default BrandBar;

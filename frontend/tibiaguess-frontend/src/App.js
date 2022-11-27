@@ -2,19 +2,17 @@ import './App.css';
 import React from 'react'
 import { TibiaMap } from './components/TibiaMap';
 import {Screenshot} from './components/Screenshot';
-import BrandExample from './components/Navbar';
+import BrandBar from './components/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div>
-      <div><BrandExample/></div>
       <div>
+        <BrandBar/>
+        <Screenshot />
         
         <TibiaMap/>
-        <Screenshot/>
       </div>
-    </div>
   );
 }
 export default App;
