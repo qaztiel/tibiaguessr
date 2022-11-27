@@ -2,15 +2,19 @@ import './App.css';
 import React from 'react'
 import { TibiaMap } from './components/TibiaMap';
 import {Screenshot} from './components/Screenshot';
-
+import BrandExample from './components/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div>
-      <img src={"thais_crossroads.png"} alt="./thais_crossroads.png" height={500} width={600}/>
-      
+      <div><BrandExample/></div>
+      <div>
+        
+        <TibiaMap/>
+        <Screenshot/>
+      </div>
     </div>
-    
   );
 }
 export default App;

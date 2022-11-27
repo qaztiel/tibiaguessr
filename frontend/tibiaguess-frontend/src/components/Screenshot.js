@@ -1,7 +1,9 @@
 import Image from 'react-bootstrap/Image';
+import thais_crossroads from './thais_crossroads.png';
+
 
 export function Screenshot() {
     return (
-        <Image href="../screenshots/thais_crossroads.png"/>
+        <Image src={thais_crossroads}/>
     )
 }
