@@ -9,9 +9,10 @@ function App() {
   return (
       <div>
         <BrandBar/>
-        <Screenshot />
-        
-        <TibiaMap/>
+        <div>
+          <Screenshot/>
+          <TibiaMap/>
+        </div>
       </div>
   );
 }
