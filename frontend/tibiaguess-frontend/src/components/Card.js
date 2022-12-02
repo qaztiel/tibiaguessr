@@ -6,7 +6,6 @@ const Card = () => {
     <div className='card-container'>
       <div className='card'>
         <Image src={thais_crossroads} className='card--image' />
-        <button className='card--btn'>Guess</button>
       </div>
     </div>
   );
