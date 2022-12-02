@@ -6,7 +6,7 @@ const Card = () => {
     <div className='card-container'>
       <div className='card'>
         <Image src={thais_crossroads} className='card--image' />
-        <button class='card--btn'>Guess</button>
+        <button className='card--btn'>Guess</button>
       </div>
     </div>
   );
