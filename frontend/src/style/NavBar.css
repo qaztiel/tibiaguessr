@@ -1,0 +1,37 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 3rem;
+    background-color: #5cb239;
+  }
+  .nav--social--wrapper {
+    display: flex;
+    justify-content: left;
+    /* padding: 2rem; */
+    gap: 1rem;
+    /* margin-right: 30%; */
+  }
+  i:hover {
+    cursor: pointer;
+  }
+  .nav--items {
+    display: flex;
+    flex-direction: row;
+  }
+  .nav--title {
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .logo {
+    width: 50px;
+    height: 50px;
+    background: url(../images/tibia.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 0.5rem;
+  }
+  
+  
+  

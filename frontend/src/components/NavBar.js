@@ -1,3 +1,6 @@
+import '../style/NavBar.css'
+
+
 function NavBar() {
   
   return (
