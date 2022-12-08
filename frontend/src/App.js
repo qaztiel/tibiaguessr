@@ -11,7 +11,7 @@ function App() {
     <div>
       <NavBar />
       <Game />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
