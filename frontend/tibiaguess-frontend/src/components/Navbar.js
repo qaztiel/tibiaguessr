@@ -26,4 +26,4 @@ function NavBar() {
   );
 }
 
-export default BrandBar;
+export default NavBar;
