@@ -47,7 +47,7 @@ i:hover {
 .logo {
   width: 50px;
   height: 50px;
-  background: url(./images/tibia.png);
+  background: url(../images/tibia.png);
   background-size: cover;
   background-repeat: no-repeat;
   margin-right: 0.5rem;
@@ -75,5 +75,3 @@ i:hover {
   color: #74f1e3;
   font-size: 2rem;
 }
-
-

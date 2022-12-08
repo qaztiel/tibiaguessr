@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import './style/App.css';
 import React from 'react';
 import BrandBar from './components/Navbar';
 import Card from './components/Card';
