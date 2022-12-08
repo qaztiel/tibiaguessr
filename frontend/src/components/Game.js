@@ -1,9 +1,9 @@
 import { TibiaMap } from './TibiaMap';
 import { ScreenShot } from './ScreenShot'
-import '../style/Card.css';
+import '../style/Game.css';
 
 
-const Card = () => {
+const Game = () => {
   return (
     <div className='card-container'>
       <div className='card'>
@@ -16,4 +16,4 @@ const Card = () => {
 };
 
 
-export default Card;
+export default Game;
