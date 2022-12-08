@@ -17,6 +17,7 @@
   color: #61dafb;
 }
 
+/* this was added to handle the social media links turning blue color by default */
 
 a {
   color: inherit;
