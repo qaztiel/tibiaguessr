@@ -1,5 +1,5 @@
 import { MapContainer, Marker, ImageOverlay } from 'react-leaflet'
-
+import '../style/TibiaMap.css';
 
 
 export function TibiaMap() {
