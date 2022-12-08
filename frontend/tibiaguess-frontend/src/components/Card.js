@@ -1,6 +1,6 @@
 import Image from 'react-bootstrap/Image';
 import { TibiaMap } from './TibiaMap';
-import thais_crossroads from './thais_crossroads.png';
+import thais_crossroads from '../images/thais_crossroads.png';
 
 const Card = () => {
   return (
