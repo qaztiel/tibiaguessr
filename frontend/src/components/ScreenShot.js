@@ -4,9 +4,8 @@ import thais_crossroads from '../images/thais_crossroads.png';
 
 export function ScreenShot() {
     return (
-        <Image 
+        <Image
             src={thais_crossroads} 
-            fluid={true}
-            style={{display: 'block', margin: 'auto'}}/>
+        />
     )
 }
