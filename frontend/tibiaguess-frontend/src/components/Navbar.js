@@ -1,4 +1,4 @@
-function BrandBar() {
+function NavBar() {
   return (
     <>
       <nav>
