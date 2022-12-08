@@ -16,6 +16,8 @@ export function TibiaMap() {
         [-350, -250], 
         [250, 350]
     ];
+
+    
     return (
         <div id="map">
             <MapContainer 
