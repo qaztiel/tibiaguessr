@@ -1,5 +1,7 @@
 import { TibiaMap } from './TibiaMap';
 import { ScreenShot } from './ScreenShot'
+import '../style/Card.css';
+
 
 const Card = () => {
   return (
@@ -12,5 +14,6 @@ const Card = () => {
     </div>
   );
 };
+
 
 export default Card;
