@@ -9,6 +9,7 @@ function App() {
     <div>
       <BrandBar />
       <Card />
+      <button className='card--btn'>Guess</button>
     </div>
   );
 }
