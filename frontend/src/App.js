@@ -10,7 +10,6 @@ function App() {
     <div>
       <NavBar />
       <Card />
-      <button className='card--btn'>Guess</button>
     </div>
   );
 }
