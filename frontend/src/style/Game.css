@@ -1,7 +1,6 @@
 .card-container {
     display: grid;
     place-items: center;
-    background-color: #b3387c;
 }
 .card {
     margin: 0;
