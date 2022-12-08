@@ -9,7 +9,6 @@ const Game = () => {
       <div className='card'>
         <ScreenShot></ScreenShot>
         <TibiaMap></TibiaMap>
-        <button className='card--btn'>Guess</button>
       </div>
     </div>
   );
