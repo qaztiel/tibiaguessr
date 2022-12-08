@@ -1,9 +1,13 @@
 .card-container {
     display: grid;
     place-items: center;
-}
-.card {
-    margin: 0;
-    max-width: 70%;
+    grid-template-areas: "inner-div"
 }
 
+
+.inner {
+    height: 100%;
+    width: 100%;
+    /* important part */
+    grid-area: inner-div;
+  }

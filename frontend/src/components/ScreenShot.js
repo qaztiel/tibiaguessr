@@ -4,7 +4,7 @@ import thais_crossroads from '../images/thais_crossroads.png';
 
 export function ScreenShot() {
     return (
-        <Image
+        <Image className='inner'
             src={thais_crossroads} 
         />
     )
