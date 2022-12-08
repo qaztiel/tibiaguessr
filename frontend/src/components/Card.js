@@ -1,12 +1,11 @@
-import Image from 'react-bootstrap/Image';
 import { TibiaMap } from './TibiaMap';
-import thais_crossroads from '../images/thais_crossroads.png';
+import { ScreenShot } from './ScreenShot'
 
 const Card = () => {
   return (
     <div className='card-container'>
       <div className='card'>
-        <Image src={thais_crossroads} className='card--image' />
+        <ScreenShot></ScreenShot>
         <TibiaMap></TibiaMap>
         <button className='card--btn'>Guess</button>
       </div>
