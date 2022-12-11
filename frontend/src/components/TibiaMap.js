@@ -19,7 +19,7 @@ export function TibiaMap() {
 
     
     return (
-        <div id="map" className='inner'>
+        <div id="map">
             <MapContainer 
                 center={position} 
                 zoom={3} 
