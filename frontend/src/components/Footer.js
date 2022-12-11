@@ -5,7 +5,7 @@ function Footer() {
   
   return (
     <>
-      <footer>
+      <footer id='footer'>
         {/* <div className='nav--social--wrapper'>
           <a  href="https://github.com/qaztiel/tibiaguessr">
             <i className='fa-brands fa-github fa-2x'></i>
