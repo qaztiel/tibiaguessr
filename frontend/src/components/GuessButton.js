@@ -10,11 +10,15 @@ export function GuessButton() {
       }
 
     return (
-        <Button 
-            className='footer--btn' 
-            onClick={handleGuess}
-        >
-            Guess
-        </Button>
+        <div className='d-grid gap-2'>
+            <Button 
+                variant='primary'
+                size='lg'
+                onClick={handleGuess}
+            >
+                Guess
+            </Button>
+        </div>
+        
     )
 }
