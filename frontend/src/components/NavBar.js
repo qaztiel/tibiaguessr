@@ -7,7 +7,7 @@ function NavBar() {
     <>
       <nav>
         
-        <div className='nav--social--wrapper'>
+        {/* <div className='nav--social--wrapper'>
           <a  href="https://github.com/qaztiel/tibiaguessr">
             <i className='fa-brands fa-github fa-2x'></i>
           </a>
@@ -20,7 +20,7 @@ function NavBar() {
           <a href="https://twitter.com/tibiaguessr">
             <i className='fa-brands fa-twitter fa-2x'></i>
           </a>
-        </div>
+        </div> */}
         
         <div className='nav--items'>
           <div className='logo'></div>
