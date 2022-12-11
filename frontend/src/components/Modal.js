@@ -3,7 +3,7 @@
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
-function StaticExample() {
+function ResultsModal() {
   return (
     <div
       className="modal show"
@@ -27,4 +27,4 @@ function StaticExample() {
   );
 }
 
-export default StaticExample;
+export default ResultsModal;
