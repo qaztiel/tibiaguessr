@@ -10,7 +10,10 @@ https://xd.adobe.com/view/a3146e93-e268-4fc3-8b01-4bbef84ad652-f647/?fullscreen
 
 ## Getting Started
 
-### Front End
+## Front End
+### Docker
+
+### React App
 1. clone repo
 2. `cd frontend`
 3. `npm install`
