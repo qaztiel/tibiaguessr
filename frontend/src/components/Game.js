@@ -10,9 +10,10 @@ const Game = () => {
   }
 
   return (
-    <div>
-        <ScreenShot class='inner'></ScreenShot>
-        <TibiaMap class='inner'></TibiaMap>
+    <div id='game'>
+        <ScreenShot></ScreenShot>
+        {/* state for map */}
+        <TibiaMap></TibiaMap>
         
         {/* TODO make button a component */}
         <button 

@@ -6,6 +6,7 @@ export function ScreenShot() {
     return (
         <Image
             src={thais_crossroads} 
+            width='100%'
         />
     )
 }
