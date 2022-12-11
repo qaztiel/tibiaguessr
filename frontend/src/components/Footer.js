@@ -20,7 +20,7 @@ function Footer() {
             <i className='fa-brands fa-twitter fa-2x'></i>
           </a>
         </div> */}
-          <button className='footer--btn'>Guess</button>
+          <p>Footer</p>
       </footer>
     </>
   );
