@@ -5,7 +5,7 @@ import '../style/Game.css';
 
 const Game = () => {
   return (
-    <div className='card-container'>
+    <div>
         <ScreenShot class='inner'></ScreenShot>
         <TibiaMap class='inner'></TibiaMap>
     </div>
