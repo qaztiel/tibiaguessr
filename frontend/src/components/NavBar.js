@@ -27,7 +27,6 @@ function NavBar() {
           <h1 className='nav--title'>Tibiaguessr</h1>
         </div>
         
-        <div></div>
       </nav>
     </>
   );
