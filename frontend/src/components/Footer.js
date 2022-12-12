@@ -1,4 +1,5 @@
 import '../style/Footer.css'
+import { Github, Twitter, Tiktok, Instagram, Git } from 'react-bootstrap-icons';
 
 
 function Footer() {
@@ -6,21 +7,20 @@ function Footer() {
   return (
     <>
       <footer id='footer'>
-        {/* <div className='nav--social--wrapper'>
-          <a  href="https://github.com/qaztiel/tibiaguessr">
-            <i className='fa-brands fa-github fa-2x'></i>
+        <div id='socials'>
+          <a href='https://www.github.com/qaztiel/tibiaguessr'>
+            <Github/>
           </a>
-          <a href="https://www.tiktok.com/@tibiaguessr">
-            <i className='fa-brands fa-tiktok fa-2x'></i>
+          <a href='https://www.twitter.com/tibiaguessr'>
+            <Twitter/>
           </a>
-          <a href="https://www.instagram.com/tibiaguessr/">
-            <i className='fa-brands fa-instagram fa-2x'></i>
+          <a href='https://www.tiktok.com/@tibiaguessr'>
+            <Tiktok/>
           </a>
-          <a href="https://twitter.com/tibiaguessr">
-            <i className='fa-brands fa-twitter fa-2x'></i>
+          <a href='https://www.instagram.com/tibiaguessr'>
+            <Instagram/>
           </a>
-        </div> */}
-          <p>Footer</p>
+        </div>
       </footer>
     </>
   );
