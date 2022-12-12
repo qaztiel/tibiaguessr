@@ -26,11 +26,8 @@ export function GuessButton() {
               </Modal.Header>
               <Modal.Body>COMING SOON</Modal.Body>
               <Modal.Footer>
-                <Button variant="secondary" onClick={handleClose}>
-                  Close
-                </Button>
                 <Button variant="primary" onClick={handleClose}>
-                  Save Changes
+                  Guess Again
                 </Button>
               </Modal.Footer>
             </Modal>
