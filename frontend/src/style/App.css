@@ -4,3 +4,7 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+#app {
+  height: 100%;
+}

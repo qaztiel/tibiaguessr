@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
+    <div id='app'>
       <NavBar />
       <Game />
       <Footer />
