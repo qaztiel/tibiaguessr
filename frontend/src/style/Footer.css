@@ -1,3 +1,7 @@
 #footer {
-    background-color: black;
+    background-color: #5cb239;
+    display: flex;
+    justify-content: center;
+    height: 3rem;
 }
+
