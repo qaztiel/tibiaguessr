@@ -1,11 +1,11 @@
 .leaflet-container {
-    height: 500px;
-    width: 500px;
-    margin: auto
+  height: 275px;
+  width: 275px;
+  margin: auto
   }
 
 #map {
-  height: 500px;
-    width: 500px;
-    margin: auto
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }

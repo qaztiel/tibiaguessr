@@ -1,4 +1,9 @@
 #game {
-    width: 75%;
+    width: 80%;
     background-color: white;
+    position: relative;
+}
+
+#overlapping {
+    position: relative;
 }
