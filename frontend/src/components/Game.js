@@ -13,9 +13,7 @@ const Game = () => {
           <ScreenShot></ScreenShot>
           <TibiaMap></TibiaMap>
         </div>
-        <div>
-          <GuessButton></GuessButton>
-        </div>
+        <GuessButton></GuessButton>
     </div>
   );
 };
