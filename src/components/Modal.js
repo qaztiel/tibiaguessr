@@ -1,5 +1,4 @@
 // https://react-bootstrap.github.io/components/modal/
-
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
@@ -11,11 +10,11 @@ function ResultsModal() {
     >
       <Modal.Dialog>
         <Modal.Header closeButton>
-          <Modal.Title>Modal title</Modal.Title>
+          <Modal.Title>Results</Modal.Title>
         </Modal.Header>
 
         <Modal.Body>
-          <p>Modal body text goes here.</p>
+          <p>COMING SOON</p>
         </Modal.Body>
 
         <Modal.Footer>

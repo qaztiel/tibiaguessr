@@ -1,1 +1,15 @@
 /* https://react-bootstrap.github.io/components/modal/ */
+
+.modal-header {
+    background-color: #5cb239;
+}
+
+.modal-body {
+    background-color: #b3387c;
+
+}
+
+.modal-footer {
+    background-color: #5cb239;
+
+}
