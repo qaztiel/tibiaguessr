@@ -1,8 +1,14 @@
 #footer {
-    background-color: #5cb239;
     display: flex;
+    background-color: #5cb239;
     justify-content: center;
     height: 3rem;
     align-items: center;
 }
+
+#socials {
+    display: flex;
+    gap: .5rem;
+}
+
 
