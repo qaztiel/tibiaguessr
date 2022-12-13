@@ -7,8 +7,7 @@ function NavBar() {
     <>
       <nav>
         <div className='nav--items'>
-          <div className='logo'></div>
-          <h1 className='nav--title'>Tibiaguessr</h1>
+          <img id={"logo"} src="/images/project_bender_logo-white.png" alt={"test"}></img>
         </div>
         
       </nav>
