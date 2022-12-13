@@ -4,12 +4,6 @@
   margin: auto
   }
 
-#map {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
-
 .leaflet-touch .leaflet-bar a {
   width: 15px;
   height: 15px;
@@ -25,3 +19,9 @@
   width: 11.1rem;
   padding-left: 5px;
 }  
+  
+#map {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
