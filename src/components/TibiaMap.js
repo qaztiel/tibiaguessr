@@ -1,5 +1,6 @@
-import { MapContainer, Marker, ImageOverlay } from 'react-leaflet'
+import { MapContainer, Marker, ImageOverlay, useMapEvents, Popup } from 'react-leaflet'
 import '../style/TibiaMap.css';
+import { useState } from 'react';
 
 
 export function TibiaMap() {
@@ -36,11 +37,30 @@ export function TibiaMap() {
                         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> | <a href= "https://www.tibiamaps.io">TibiaMaps.io</a>'
                         Marker={[61.505, -0.09]}
                     />
-                    <Marker 
-                        position={[0, 0]}
-                        />
+                    
+                    <LocationMarker/>
                     
             </MapContainer>
         </div>
     );
 }
+
+
+function LocationMarker() {
+    const [position, setPosition] = useState(null)
+    const map = useMapEvents({
+      click() {
+        map.locate()
+      },
+      locationfound(e) {
+        setPosition(e.latlng)
+        map.flyTo(e.latlng, map.getZoom())
+      },
+    })
+  
+    return position === null ? null : (
+      <Marker position={position}>
+        <Popup>You are here</Popup>
+      </Marker>
+    )
+  }
