@@ -5,14 +5,15 @@ www.tibiaguessr.com is a geo location game inspired by geoguessr.com but using T
 https://xd.adobe.com/view/a3146e93-e268-4fc3-8b01-4bbef84ad652-f647/?fullscreen
 (right and left arrow to move between the different wireframes)
 
-# Developers:
+## Developers:
+
+## FRONTEND
+
 - [ ] node
 - [ ] react
 
-## Getting Started
-
-## Front End
-### React App
 1. clone repo
 2. `npm install`
 3. `npm start`
+
+## BACKEND
