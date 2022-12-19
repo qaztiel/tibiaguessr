@@ -1,5 +1,5 @@
 import '../style/Footer.css'
-import { Github, Twitter, Tiktok, Instagram, Git } from 'react-bootstrap-icons';
+import { Github, Twitter, Tiktok, Instagram, Discord, Git } from 'react-bootstrap-icons';
 
 
 function Footer() {
@@ -19,6 +19,9 @@ function Footer() {
           </a>
           <a href='https://www.instagram.com/tibiaguessr'>
             <Instagram size={'26'} />
+          </a>
+          <a href='https://discord.com/invite/FuEKaqNZTf'>
+            <Discord size={'26'} />
           </a>
         </div>
       </footer>
