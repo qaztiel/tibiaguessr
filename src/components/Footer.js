@@ -1,5 +1,5 @@
 import '../style/Footer.css'
-import { Github, Twitter, Tiktok, Instagram, Discord, Git } from 'react-bootstrap-icons';
+import { Github, Twitter, Tiktok, Instagram, Discord } from 'react-bootstrap-icons';
 
 
 function Footer() {
