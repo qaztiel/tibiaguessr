@@ -23,10 +23,10 @@ export function TibiaMap() {
         <div id="map">
             <MapContainer 
                 center={position} 
-                zoom={3} 
+                zoom={2} // default zoom level
                 scrollWheelZoom={true}
-                maxZoom={6}
-                minZoom={2}
+                maxZoom={5} // max zoom in level
+                minZoom={0} // max zoom out level
                 trackResize={true}
                 maxBounds={bounds}
                 maxBoundsViscosity={.5}
@@ -35,7 +35,7 @@ export function TibiaMap() {
                         url={"https://tibiamaps.github.io/tibia-map-data/floor-07-map.png"}
                         bounds={bound}
                         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> | <a href= "https://www.tibiamaps.io">TibiaMaps.io</a>'
-                        Marker={[61.505, -0.09]}
+                        Marker={[300, 300]}
                     />
                     
                     <LocationMarker/>

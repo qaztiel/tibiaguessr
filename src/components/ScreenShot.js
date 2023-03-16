@@ -1,4 +1,5 @@
 import Image from 'react-bootstrap/Image';
+import '../style/ScreenShot.css'
 
 
 export function ScreenShot() {
@@ -6,7 +7,6 @@ export function ScreenShot() {
         <div id='screenshot-container'>
             <Image
             src={"/images/challenge_thais_crossroads.png"} 
-            width='100%'
             />
         </div>
         
