@@ -2,9 +2,9 @@
 
 import Button from 'react-bootstrap/Button';
 import React, { useState } from 'react';
-import ResultsModal from './Modal';
 import Modal from 'react-bootstrap/Modal';
 import '../style/Modal.css';
+import '../style/GuessButton.css';
 
 export function GuessButton() {
     const [show, setShow] = useState(false);
@@ -13,12 +13,11 @@ export function GuessButton() {
     
     return (
         <div className='d-grid gap-2'>
-            <Button 
-                variant='primary'
+            <Button id="guess-btn" 
                 size='lg'
                 onClick={handleShow}
             >
-                Guess
+                GUESS
             </Button>
             <Modal show={show} onHide={handleClose}>
               <Modal.Header closeButton>

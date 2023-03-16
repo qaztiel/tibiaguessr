@@ -1,7 +1,6 @@
 import { MapContainer, Marker, ImageOverlay, useMapEvents, Popup } from 'react-leaflet'
 import '../style/TibiaMap.css';
-import { useState } from 'react';
-
+import { LocationMarker } from './MapMarker';
 
 export function TibiaMap() {
     const position = [0,0]
