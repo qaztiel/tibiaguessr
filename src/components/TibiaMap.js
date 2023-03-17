@@ -26,7 +26,7 @@ export function TibiaMap() {
                 zoom={2} // default zoom level
                 scrollWheelZoom={true}
                 maxZoom={5} // max zoom in level
-                minZoom={0} // max zoom out level
+                minZoom={1} // max zoom out level
                 trackResize={true}
                 maxBounds={bounds}
                 maxBoundsViscosity={.5}
