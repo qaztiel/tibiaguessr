@@ -13,6 +13,7 @@ export function LocationMarker() {
       },
     })
   
+    console.log(position);
     return position === null ? null : (
       <Marker position={position}>
         <Popup>You are here</Popup>

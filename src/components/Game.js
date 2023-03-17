@@ -8,12 +8,14 @@ const Game = () => {
   
 
   return (
-    <div id='game'>
+    <div id='game-container'>
         <div id='overlapping'>
-          <ScreenShot></ScreenShot>
-          <TibiaMap></TibiaMap>
+          <ScreenShot/>
+          <TibiaMap/>          
         </div>
-        <GuessButton></GuessButton>
+        <div id='btn-container'>
+          <GuessButton/>
+        </div>
     </div>
   );
 };

@@ -1,8 +1,9 @@
 img {
     position: relative;
+    width: 100%
 }
 
 #screenshot-container {
     position: relative;
-    width: 75%;
+    width: 100%;
 }
