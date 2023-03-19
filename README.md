@@ -3,8 +3,6 @@ www.tibiaguessr.com is a geo location game inspired by geoguessr.com but using T
 
 ## Developers:
 
-## FRONTEND
-
 - [ ] node
 - [ ] react
 
