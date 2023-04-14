@@ -35,7 +35,7 @@ env:
   ECR_REPOSITORY: tibiaguessr                 # set this to your Amazon ECR repository name
   ECS_SERVICE: tibiaguessr-service            # set this to your Amazon ECS service name
   ECS_CLUSTER: TibiaGuessrCluster             # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: task-def:1             # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: arn:aws:ecs:us-west-1:521312867841:task-definition/task-def:1             # set this to the path to your Amazon ECS task definition
                                               # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: tibiaguessr-react           # set this to the name of the container in the
                                               # containerDefinitions section of your task definition
