@@ -5,7 +5,7 @@ import '../style/ScreenShot.css'
 export function ScreenShot() {
     return (
             <Image
-                src={"/images/challenge_thais_crossroads.png"} 
+                src={"/challenges/img-1.png"} 
             />
     )
 }
