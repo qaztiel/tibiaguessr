@@ -35,10 +35,10 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_CONTAINER_REGISTRY: "your-azure-container-registry"
-  CONTAINER_NAME: "your-container-name"
-  RESOURCE_GROUP: "your-resource-group"
-  CLUSTER_NAME: "your-cluster-name"
+  AZURE_CONTAINER_REGISTRY: "tibiaguessracr"
+  CONTAINER_NAME: "tibiaguessr-ui-container"
+  RESOURCE_GROUP: "tibiaguessr-ui_group"
+  CLUSTER_NAME: "tibiaguessr"
   DEPLOYMENT_MANIFEST_PATH: "your-deployment-manifest-path"
 
 jobs:
